@@ -1,0 +1,16 @@
+## The Packages Used in the Project:
+folium==0.14.0
+geopandas==0.10.2
+numpy==1.21.6
+pandas==1.3.5
+pyarrow==11.0.0
+requests==2.29.0
+seaborn==0.12.2
+sqlite3 (part of Python's standard library, no separate version)
+BeautifulSoup4==4.12.0 (imported as bs4)
+matplotlib==3.2.0
+scipy==1.4.1
+sqlalchemy==1.3.4
+
+
+
