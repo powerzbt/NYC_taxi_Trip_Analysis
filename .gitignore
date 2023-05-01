@@ -1,0 +1,16 @@
+*.csv
+*.parquet 
+*.sqlite
+*.tar.gz
+*.zip
+*.rar
+*.iso
+*.dmg
+*.log
+
+
+
+# Ignore pycache files
+__pycache__/
+build/
+dist/
