@@ -1,6 +1,9 @@
 <h1 align="center"> NYC_taxi_Trip_Analysis </h1>
  
 ## **Overview**:
+
+![](https://github.com/powerzbt/NYC_taxi_Trip_Analysis/blob/main/heatmap_animation.gif)
+
 This is the Final Project for the course "Tools for Analytics" instructed by Erin Root at Columbia University.
  
 This project aims to analyze and visualize the trends and patterns of hired-ride trips in New York City from January 2009 through June 2015, using Uber and NYC Yellow Taxi data, along with local historical weather data. The purpose is to understand the factors affecting the popularity of Uber and Yellow Taxis, their preferences during different weather conditions, and the dynamics of trips around the city.
@@ -34,15 +37,7 @@ BeautifulSoup4==4.12.0 (imported as bs4)
 matplotlib==3.2.0
 scipy==1.4.1
 sqlalchemy==1.3.4
-
-
-
-
-
-## **Presentation**:
-
-[NYC taxi Trip Analysis](https://github.com/powerzbt/NYC_taxi_Trip_Analysis/blob/main/Final%20Project.pdf) 
-
+For more dependencies, please refer to [requirements.txt](https://github.com/powerzbt/NYC_taxi_Trip_Analysis/blob/main/requirements.txt) 
   
 
 ## **Author**:
