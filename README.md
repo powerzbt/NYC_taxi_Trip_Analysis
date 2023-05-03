@@ -10,11 +10,15 @@ This project aims to analyze and visualize the trends and patterns of hired-ride
 
 The project is divided into four parts: Data Preprocessing, Storing Data, Understanding Data, and Visualizing Data. Throughout these parts, we use Python programming language, Jupyter Notebook as the development environment, and SQL for querying data. The utilized Python libraries include pandas, geopandas, matplotlib, and SQLAlchemy, among others.
 
+![](https://github.com/powerzbt/NYC_taxi_Trip_Analysis/blob/main/heatmap_static.png)
+
 In the Data Preprocessing part, we download and clean datasets for Uber rides, Yellow Taxi trips, and historical weather data. We then preprocess the data by filling in missing information, generating samples, and calculating distances between pickup and dropoff locations.
 
 For the Storing Data part, we create a SQLite database and populate it with four tables: Yellow Taxi trips, Uber trips, hourly weather information, and daily weather information. We also create a schema.sql file defining each table's schema.
 
 In the Understanding Data part, we craft SQL queries to answer specific questions related to hired-ride trip patterns, popular hours and days, distances traveled, and weather conditions. These queries help us develop a better understanding of the data and its characteristics.
+
+
 
 Finally, in the Visualizing Data part, we create six visualizations embedded in the Jupyter Notebook using matplotlib and other visualization libraries. These visualizations provide insights into the popularity of hired rides during different hours and days, average distances traveled, drop-offs at major airports, spatial distribution of trips, and the relationship between tip amount and distance or precipitation.
 
@@ -37,6 +41,8 @@ BeautifulSoup4==4.12.0 (imported as bs4)
 matplotlib==3.2.0
 scipy==1.4.1
 sqlalchemy==1.3.4
+
+
 For more dependencies, please refer to [requirements.txt](https://github.com/powerzbt/NYC_taxi_Trip_Analysis/blob/main/requirements.txt) 
   
 
