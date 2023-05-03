@@ -1,10 +1,10 @@
 
-CREATE TABLE IF NOT EXISTS hourly_weather_database
+CREATE TABLE IF NOT EXISTS hourly_weather_data
 (
     id INTEGER PRIMARY KEY,
     HourlyWindSpeed FLOAT,
     HourlyPrecipitation FLOAT,
-    Date TIMESTAMP,
+    Date DATE,
     Record_Time TIMESTAMP,
     Year INTEGER,
     Month INTEGER,
@@ -12,14 +12,14 @@ CREATE TABLE IF NOT EXISTS hourly_weather_database
     Hour INTEGER
 );
 
-CREATE TABLE IF NOT EXISTS daily_weather_database
+CREATE TABLE IF NOT EXISTS daily_weather_data
 (
     id INTEGER PRIMARY KEY,
     DailyPrecipitation FLOAT,
     DailySustainedWindSpeed FLOAT,
     DailyPeakWindSpeed FLOAT,
     DailyAverageWindSpeed FLOAT,
-    Date TIMESTAMP,
+    Date DATE,
     Record_Time TIMESTAMP,
     Year INTEGER,
     Month INTEGER,
@@ -27,41 +27,37 @@ CREATE TABLE IF NOT EXISTS daily_weather_database
     Hour INTEGER
 );
 
-CREATE TABLE IF NOT EXISTS yellow_taxi_database
+CREATE TABLE IF NOT EXISTS taxi_trips
 (
     id INTEGER PRIMARY KEY,
-    Date TIMESTAMP,
-    Pickup TIMESTAMP,
-    Pickup_Time TIMESTAMP,
-    Trip_Distance FLOAT,
-    Start_Lon FLOAT,
-    Start_Lat FLOAT,
-    End_Lon FLOAT,
-    End_Lat FLOAT,
-    Fare_Amt FLOAT,
-    Tip_Amt FLOAT,
-    Year INTEGER,
-    Month INTEGER,
-    Day INTEGER,
-    Time INTEGER,
-    DayofWeek INTEGER
+    pickup_datetime TIMESTAMP,
+    dropoff_datetime TIMESTAMP,
+    start_lon FLOAT,
+    start_lat FLOAT,
+    end_lon FLOAT,
+    end_lat FLOAT,
+    fare_amt FLOAT,
+    tip_amt FLOAT,
+    real_distance FLOAT
 );
 
-CREATE TABLE IF NOT EXISTS uber_database
+CREATE TABLE IF NOT EXISTS uber_trips
 (
     id INTEGER PRIMARY KEY,
-    Fare_Amt FLOAT,
-    Start_Lon FLOAT,
-    Start_Lat FLOAT,
-    End_Lon FLOAT,
-    End_Lat FLOAT,
-    Date TIMESTAMP,
-    Year INTEGER,
-    Month INTEGER,
-    Day INTEGER,
-    Hour INTEGER,
-    Pickup TIMESTAMP,
-    DayofWeek INTEGER,
-    Trip_Distance FLOAT,
-    Pickup_Date TIMESTAMP
+    pickup_datetime TIMESTAMP,
+    pickup_longitude FLOAT,
+    pickup_latitude FLOAT,
+    dropoff_longitude FLOAT,
+    dropoff_latitude FLOAT,
+    fare_amount FLOAT,
+    day_of_week INTEGER,
+    real_distance FLOAT
+);
+
+CREATE TABLE IF NOT EXISTS sunrise_sunset_data
+(
+    id INTEGER PRIMARY KEY,
+    Sunrise TIME,
+    Sunset TIME,
+    Date DATE
 );
