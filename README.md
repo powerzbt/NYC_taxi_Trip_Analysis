@@ -1,5 +1,7 @@
-# NYC Taxi Trip Analysis
 
+
+<h1 align="center">  Hired-Ride Trips Analysis in New York City </h1>
+ 
 
 ## Overview
 
