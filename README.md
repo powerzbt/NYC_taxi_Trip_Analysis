@@ -1,16 +1,17 @@
 # NYC Taxi Trip Analysis
 
-<div align="center">
-    <img src="https://github.com/powerzbt/NYC_taxi_Trip_Analysis/blob/main/heatmap_animation.gif" alt="heatmap_animation">
-</div>
 
 ## Overview
+
+![heatmap_static](https://github.com/powerzbt/NYC_taxi_Trip_Analysis/blob/main/heatmap_static.png)
 
 This project serves as the final submission for the "Tools for Analytics" course, instructed by Erin Root at Columbia University. The goal is to investigate and illustrate the trends and patterns of hired-ride trips in New York City from January 2009 through June 2015, using data from Uber and NYC Yellow Taxi services, as well as local historical weather information. The analysis seeks to understand the factors affecting the popularity of Uber and Yellow Taxis, user preferences during various weather conditions, and the dynamics of trips across the city.
 
 The project is divided into four sections: Data Preprocessing, Data Storage, Data Understanding, and Data Visualization. Python programming language, Jupyter Notebook, and SQL are used throughout these sections. Key Python libraries include pandas, geopandas, matplotlib, and SQLAlchemy.
 
-![heatmap_static](https://github.com/powerzbt/NYC_taxi_Trip_Analysis/blob/main/heatmap_static.png)
+<div align="center">
+    <img src="https://github.com/powerzbt/NYC_taxi_Trip_Analysis/blob/main/heatmap_animation.gif" alt="heatmap_animation">
+</div>
 
 For a detailed description of each section, please refer to the [project structure](#project-structure).
 
